@@ -1,0 +1,530 @@
+2024-02-06 11:23:21,504 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-02-06 11:23:21,505 - INFO - Probing node bootstrap-0 broker version
+2024-02-06 11:23:21,506 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-02-06 11:23:21,622 - INFO - Broker version identified as 2.5.0
+2024-02-06 11:23:21,623 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-02-06 11:23:21,627 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 7.0, 'wind_speed': 43.2, 'humidity': 31.3}
+2024-02-06 11:23:21,632 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 7.0, 'wind_speed': 43.2, 'humidity': 31.3}, Sent at: 2024-02-06 11:23:21
+2024-02-06 11:23:21,632 - INFO - Produced: {'city': 'Vancouver', 'temperature': 2.6, 'wind_speed': 6.9, 'humidity': 40.1}
+2024-02-06 11:23:21,633 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 2.6, 'wind_speed': 6.9, 'humidity': 40.1}, Sent at: 2024-02-06 11:23:21
+2024-02-06 11:23:21,634 - INFO - <BrokerConnection node_id=0 host=effy-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to effy-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-02-06 11:23:21,634 - INFO - <BrokerConnection node_id=0 host=effy-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-02-06 11:23:21,634 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-02-06 11:23:26,639 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -20.4, 'wind_speed': 41.3, 'humidity': 40.6}
+2024-02-06 11:23:26,641 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -20.4, 'wind_speed': 41.3, 'humidity': 40.6}, Sent at: 2024-02-06 11:23:26
+2024-02-06 11:23:26,642 - INFO - Produced: {'city': 'Vancouver', 'temperature': 21.1, 'wind_speed': 24.6, 'humidity': 76.8}
+2024-02-06 11:23:26,642 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 21.1, 'wind_speed': 24.6, 'humidity': 76.8}, Sent at: 2024-02-06 11:23:26
+2024-02-06 11:23:31,648 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 24.6, 'wind_speed': 7.3, 'humidity': 41.6}
+2024-02-06 11:23:31,650 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 24.6, 'wind_speed': 7.3, 'humidity': 41.6}, Sent at: 2024-02-06 11:23:31
+2024-02-06 11:23:31,650 - INFO - Produced: {'city': 'Vancouver', 'temperature': 23.1, 'wind_speed': 16.0, 'humidity': 84.4}
+2024-02-06 11:23:31,651 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 23.1, 'wind_speed': 16.0, 'humidity': 84.4}, Sent at: 2024-02-06 11:23:31
+2024-02-06 11:23:36,657 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 26.0, 'wind_speed': 6.7, 'humidity': 39.0}
+2024-02-06 11:23:36,658 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 26.0, 'wind_speed': 6.7, 'humidity': 39.0}, Sent at: 2024-02-06 11:23:36
+2024-02-06 11:23:36,659 - INFO - Produced: {'city': 'Vancouver', 'temperature': 22.8, 'wind_speed': 10.6, 'humidity': 91.0}
+2024-02-06 11:23:36,659 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 22.8, 'wind_speed': 10.6, 'humidity': 91.0}, Sent at: 2024-02-06 11:23:36
+2024-02-06 11:23:41,665 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -10.5, 'wind_speed': 22.7, 'humidity': 22.0}
+2024-02-06 11:23:41,667 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -10.5, 'wind_speed': 22.7, 'humidity': 22.0}, Sent at: 2024-02-06 11:23:41
+2024-02-06 11:23:41,667 - INFO - Produced: {'city': 'Vancouver', 'temperature': -7.3, 'wind_speed': 20.8, 'humidity': 46.4}
+2024-02-06 11:23:41,668 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -7.3, 'wind_speed': 20.8, 'humidity': 46.4}, Sent at: 2024-02-06 11:23:41
+2024-02-06 11:23:46,681 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 22.4, 'wind_speed': 24.1, 'humidity': 40.4}
+2024-02-06 11:23:46,682 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 22.4, 'wind_speed': 24.1, 'humidity': 40.4}, Sent at: 2024-02-06 11:23:46
+2024-02-06 11:23:46,684 - INFO - Produced: {'city': 'Vancouver', 'temperature': 3.8, 'wind_speed': 6.0, 'humidity': 96.9}
+2024-02-06 11:23:46,685 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 3.8, 'wind_speed': 6.0, 'humidity': 96.9}, Sent at: 2024-02-06 11:23:46
+2024-02-06 11:23:51,695 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 0.1, 'wind_speed': 43.3, 'humidity': 35.4}
+2024-02-06 11:23:51,704 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 0.1, 'wind_speed': 43.3, 'humidity': 35.4}, Sent at: 2024-02-06 11:23:51
+2024-02-06 11:23:51,705 - INFO - Produced: {'city': 'Vancouver', 'temperature': 4.6, 'wind_speed': 6.9, 'humidity': 77.7}
+2024-02-06 11:23:51,705 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 4.6, 'wind_speed': 6.9, 'humidity': 77.7}, Sent at: 2024-02-06 11:23:51
+2024-02-06 11:23:56,708 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 25.6, 'wind_speed': 19.8, 'humidity': 70.8}
+2024-02-06 11:23:56,709 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 25.6, 'wind_speed': 19.8, 'humidity': 70.8}, Sent at: 2024-02-06 11:23:56
+2024-02-06 11:23:56,709 - INFO - Produced: {'city': 'Vancouver', 'temperature': 1.4, 'wind_speed': 13.6, 'humidity': 82.5}
+2024-02-06 11:23:56,710 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 1.4, 'wind_speed': 13.6, 'humidity': 82.5}, Sent at: 2024-02-06 11:23:56
+2024-02-06 11:24:01,716 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -20.7, 'wind_speed': 34.8, 'humidity': 77.6}
+2024-02-06 11:24:01,719 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -20.7, 'wind_speed': 34.8, 'humidity': 77.6}, Sent at: 2024-02-06 11:24:01
+2024-02-06 11:24:01,719 - INFO - Produced: {'city': 'Vancouver', 'temperature': -3.5, 'wind_speed': 29.3, 'humidity': 38.8}
+2024-02-06 11:24:01,722 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -3.5, 'wind_speed': 29.3, 'humidity': 38.8}, Sent at: 2024-02-06 11:24:01
+2024-02-06 11:24:06,725 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -3.2, 'wind_speed': 43.5, 'humidity': 53.4}
+2024-02-06 11:24:06,726 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -3.2, 'wind_speed': 43.5, 'humidity': 53.4}, Sent at: 2024-02-06 11:24:06
+2024-02-06 11:24:06,726 - INFO - Produced: {'city': 'Vancouver', 'temperature': 5.5, 'wind_speed': 8.3, 'humidity': 50.2}
+2024-02-06 11:24:06,726 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 5.5, 'wind_speed': 8.3, 'humidity': 50.2}, Sent at: 2024-02-06 11:24:06
+2024-02-06 11:24:11,732 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -16.4, 'wind_speed': 42.0, 'humidity': 49.8}
+2024-02-06 11:24:11,734 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -16.4, 'wind_speed': 42.0, 'humidity': 49.8}, Sent at: 2024-02-06 11:24:11
+2024-02-06 11:24:11,734 - INFO - Produced: {'city': 'Vancouver', 'temperature': 24.4, 'wind_speed': 26.2, 'humidity': 76.9}
+2024-02-06 11:24:11,735 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 24.4, 'wind_speed': 26.2, 'humidity': 76.9}, Sent at: 2024-02-06 11:24:11
+2024-02-06 11:24:16,741 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -12.1, 'wind_speed': 1.4, 'humidity': 65.8}
+2024-02-06 11:24:16,742 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -12.1, 'wind_speed': 1.4, 'humidity': 65.8}, Sent at: 2024-02-06 11:24:16
+2024-02-06 11:24:16,742 - INFO - Produced: {'city': 'Vancouver', 'temperature': 4.1, 'wind_speed': 29.3, 'humidity': 97.5}
+2024-02-06 11:24:16,742 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 4.1, 'wind_speed': 29.3, 'humidity': 97.5}, Sent at: 2024-02-06 11:24:16
+2024-02-06 11:24:21,744 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 18.5, 'wind_speed': 26.4, 'humidity': 31.1}
+2024-02-06 11:24:21,745 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 18.5, 'wind_speed': 26.4, 'humidity': 31.1}, Sent at: 2024-02-06 11:24:21
+2024-02-06 11:24:21,745 - INFO - Produced: {'city': 'Vancouver', 'temperature': 18.0, 'wind_speed': 25.9, 'humidity': 60.1}
+2024-02-06 11:24:21,745 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 18.0, 'wind_speed': 25.9, 'humidity': 60.1}, Sent at: 2024-02-06 11:24:21
+2024-02-06 11:24:26,748 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -15.3, 'wind_speed': 26.7, 'humidity': 59.1}
+2024-02-06 11:24:26,748 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -15.3, 'wind_speed': 26.7, 'humidity': 59.1}, Sent at: 2024-02-06 11:24:26
+2024-02-06 11:24:26,749 - INFO - Produced: {'city': 'Vancouver', 'temperature': 17.7, 'wind_speed': 11.2, 'humidity': 31.3}
+2024-02-06 11:24:26,749 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 17.7, 'wind_speed': 11.2, 'humidity': 31.3}, Sent at: 2024-02-06 11:24:26
+2024-02-06 11:24:31,761 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 10.0, 'wind_speed': 15.9, 'humidity': 28.7}
+2024-02-06 11:24:31,764 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 10.0, 'wind_speed': 15.9, 'humidity': 28.7}, Sent at: 2024-02-06 11:24:31
+2024-02-06 11:24:31,764 - INFO - Produced: {'city': 'Vancouver', 'temperature': 5.6, 'wind_speed': 6.8, 'humidity': 92.0}
+2024-02-06 11:24:31,765 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 5.6, 'wind_speed': 6.8, 'humidity': 92.0}, Sent at: 2024-02-06 11:24:31
+2024-02-06 11:24:36,771 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -17.6, 'wind_speed': 31.1, 'humidity': 27.3}
+2024-02-06 11:24:36,773 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -17.6, 'wind_speed': 31.1, 'humidity': 27.3}, Sent at: 2024-02-06 11:24:36
+2024-02-06 11:24:36,774 - INFO - Produced: {'city': 'Vancouver', 'temperature': 13.5, 'wind_speed': 6.0, 'humidity': 84.2}
+2024-02-06 11:24:36,778 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 13.5, 'wind_speed': 6.0, 'humidity': 84.2}, Sent at: 2024-02-06 11:24:36
+2024-02-06 11:24:41,788 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -12.3, 'wind_speed': 46.3, 'humidity': 52.4}
+2024-02-06 11:24:41,789 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -12.3, 'wind_speed': 46.3, 'humidity': 52.4}, Sent at: 2024-02-06 11:24:41
+2024-02-06 11:24:41,790 - INFO - Produced: {'city': 'Vancouver', 'temperature': 20.6, 'wind_speed': 18.3, 'humidity': 66.8}
+2024-02-06 11:24:41,790 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 20.6, 'wind_speed': 18.3, 'humidity': 66.8}, Sent at: 2024-02-06 11:24:41
+2024-02-06 11:24:46,792 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 5.7, 'wind_speed': 36.2, 'humidity': 57.5}
+2024-02-06 11:24:46,793 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 5.7, 'wind_speed': 36.2, 'humidity': 57.5}, Sent at: 2024-02-06 11:24:46
+2024-02-06 11:24:46,794 - INFO - Produced: {'city': 'Vancouver', 'temperature': 4.6, 'wind_speed': 14.9, 'humidity': 37.3}
+2024-02-06 11:24:46,794 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 4.6, 'wind_speed': 14.9, 'humidity': 37.3}, Sent at: 2024-02-06 11:24:46
+2024-02-06 11:24:51,800 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 28.6, 'wind_speed': 0.7, 'humidity': 59.6}
+2024-02-06 11:24:51,802 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 28.6, 'wind_speed': 0.7, 'humidity': 59.6}, Sent at: 2024-02-06 11:24:51
+2024-02-06 11:24:51,802 - INFO - Produced: {'city': 'Vancouver', 'temperature': 2.3, 'wind_speed': 5.9, 'humidity': 46.6}
+2024-02-06 11:24:51,802 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 2.3, 'wind_speed': 5.9, 'humidity': 46.6}, Sent at: 2024-02-06 11:24:51
+2024-02-06 11:24:56,804 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -3.4, 'wind_speed': 45.5, 'humidity': 61.2}
+2024-02-06 11:24:56,805 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -3.4, 'wind_speed': 45.5, 'humidity': 61.2}, Sent at: 2024-02-06 11:24:56
+2024-02-06 11:24:56,806 - INFO - Produced: {'city': 'Vancouver', 'temperature': 0.6, 'wind_speed': 8.3, 'humidity': 85.8}
+2024-02-06 11:24:56,806 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 0.6, 'wind_speed': 8.3, 'humidity': 85.8}, Sent at: 2024-02-06 11:24:56
+2024-02-06 11:25:01,817 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 21.8, 'wind_speed': 32.1, 'humidity': 59.2}
+2024-02-06 11:25:01,818 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 21.8, 'wind_speed': 32.1, 'humidity': 59.2}, Sent at: 2024-02-06 11:25:01
+2024-02-06 11:25:01,818 - INFO - Produced: {'city': 'Vancouver', 'temperature': 2.3, 'wind_speed': 2.3, 'humidity': 51.2}
+2024-02-06 11:25:01,819 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 2.3, 'wind_speed': 2.3, 'humidity': 51.2}, Sent at: 2024-02-06 11:25:01
+2024-02-06 11:25:06,823 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 24.4, 'wind_speed': 0.9, 'humidity': 52.8}
+2024-02-06 11:25:06,824 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 24.4, 'wind_speed': 0.9, 'humidity': 52.8}, Sent at: 2024-02-06 11:25:06
+2024-02-06 11:25:06,824 - INFO - Produced: {'city': 'Vancouver', 'temperature': 14.2, 'wind_speed': 13.2, 'humidity': 86.2}
+2024-02-06 11:25:06,824 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 14.2, 'wind_speed': 13.2, 'humidity': 86.2}, Sent at: 2024-02-06 11:25:06
+2024-02-06 11:25:11,833 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -19.9, 'wind_speed': 5.0, 'humidity': 64.6}
+2024-02-06 11:25:11,835 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -19.9, 'wind_speed': 5.0, 'humidity': 64.6}, Sent at: 2024-02-06 11:25:11
+2024-02-06 11:25:11,835 - INFO - Produced: {'city': 'Vancouver', 'temperature': 17.0, 'wind_speed': 20.8, 'humidity': 57.3}
+2024-02-06 11:25:11,835 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 17.0, 'wind_speed': 20.8, 'humidity': 57.3}, Sent at: 2024-02-06 11:25:11
+2024-02-06 11:25:16,838 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -22.8, 'wind_speed': 6.8, 'humidity': 55.3}
+2024-02-06 11:25:16,839 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -22.8, 'wind_speed': 6.8, 'humidity': 55.3}, Sent at: 2024-02-06 11:25:16
+2024-02-06 11:25:16,839 - INFO - Produced: {'city': 'Vancouver', 'temperature': -4.8, 'wind_speed': 19.4, 'humidity': 75.6}
+2024-02-06 11:25:16,840 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -4.8, 'wind_speed': 19.4, 'humidity': 75.6}, Sent at: 2024-02-06 11:25:16
+2024-02-06 11:25:21,846 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -18.5, 'wind_speed': 1.4, 'humidity': 62.8}
+2024-02-06 11:25:21,847 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -18.5, 'wind_speed': 1.4, 'humidity': 62.8}, Sent at: 2024-02-06 11:25:21
+2024-02-06 11:25:21,847 - INFO - Produced: {'city': 'Vancouver', 'temperature': 7.5, 'wind_speed': 26.2, 'humidity': 55.3}
+2024-02-06 11:25:21,847 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 7.5, 'wind_speed': 26.2, 'humidity': 55.3}, Sent at: 2024-02-06 11:25:21
+2024-02-06 11:25:26,856 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 24.7, 'wind_speed': 4.1, 'humidity': 71.8}
+2024-02-06 11:25:26,857 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 24.7, 'wind_speed': 4.1, 'humidity': 71.8}, Sent at: 2024-02-06 11:25:26
+2024-02-06 11:25:26,857 - INFO - Produced: {'city': 'Vancouver', 'temperature': 3.9, 'wind_speed': 12.2, 'humidity': 75.8}
+2024-02-06 11:25:26,859 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 3.9, 'wind_speed': 12.2, 'humidity': 75.8}, Sent at: 2024-02-06 11:25:26
+2024-02-06 11:25:31,864 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 5.9, 'wind_speed': 20.5, 'humidity': 59.4}
+2024-02-06 11:25:31,865 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 5.9, 'wind_speed': 20.5, 'humidity': 59.4}, Sent at: 2024-02-06 11:25:31
+2024-02-06 11:25:31,865 - INFO - Produced: {'city': 'Vancouver', 'temperature': 15.1, 'wind_speed': 21.8, 'humidity': 35.4}
+2024-02-06 11:25:31,865 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 15.1, 'wind_speed': 21.8, 'humidity': 35.4}, Sent at: 2024-02-06 11:25:31
+2024-02-06 11:25:36,873 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 11.2, 'wind_speed': 47.9, 'humidity': 23.3}
+2024-02-06 11:25:36,874 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 11.2, 'wind_speed': 47.9, 'humidity': 23.3}, Sent at: 2024-02-06 11:25:36
+2024-02-06 11:25:36,874 - INFO - Produced: {'city': 'Vancouver', 'temperature': -6.3, 'wind_speed': 16.5, 'humidity': 43.1}
+2024-02-06 11:25:36,874 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -6.3, 'wind_speed': 16.5, 'humidity': 43.1}, Sent at: 2024-02-06 11:25:36
+2024-02-06 11:25:41,880 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -19.1, 'wind_speed': 7.1, 'humidity': 42.0}
+2024-02-06 11:25:41,881 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -19.1, 'wind_speed': 7.1, 'humidity': 42.0}, Sent at: 2024-02-06 11:25:41
+2024-02-06 11:25:41,881 - INFO - Produced: {'city': 'Vancouver', 'temperature': 6.6, 'wind_speed': 27.9, 'humidity': 58.2}
+2024-02-06 11:25:41,881 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 6.6, 'wind_speed': 27.9, 'humidity': 58.2}, Sent at: 2024-02-06 11:25:41
+2024-02-06 11:25:46,887 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -9.6, 'wind_speed': 14.4, 'humidity': 66.5}
+2024-02-06 11:25:46,890 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -9.6, 'wind_speed': 14.4, 'humidity': 66.5}, Sent at: 2024-02-06 11:25:46
+2024-02-06 11:25:46,890 - INFO - Produced: {'city': 'Vancouver', 'temperature': 7.1, 'wind_speed': 10.6, 'humidity': 64.2}
+2024-02-06 11:25:46,891 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 7.1, 'wind_speed': 10.6, 'humidity': 64.2}, Sent at: 2024-02-06 11:25:46
+2024-02-06 11:25:51,894 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -26.9, 'wind_speed': 30.4, 'humidity': 32.3}
+2024-02-06 11:25:51,895 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -26.9, 'wind_speed': 30.4, 'humidity': 32.3}, Sent at: 2024-02-06 11:25:51
+2024-02-06 11:25:51,895 - INFO - Produced: {'city': 'Vancouver', 'temperature': -7.0, 'wind_speed': 11.0, 'humidity': 43.9}
+2024-02-06 11:25:51,895 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -7.0, 'wind_speed': 11.0, 'humidity': 43.9}, Sent at: 2024-02-06 11:25:51
+2024-02-06 11:25:56,906 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -3.9, 'wind_speed': 1.0, 'humidity': 27.8}
+2024-02-06 11:25:56,907 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -3.9, 'wind_speed': 1.0, 'humidity': 27.8}, Sent at: 2024-02-06 11:25:56
+2024-02-06 11:25:56,907 - INFO - Produced: {'city': 'Vancouver', 'temperature': 4.8, 'wind_speed': 28.3, 'humidity': 56.3}
+2024-02-06 11:25:56,908 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 4.8, 'wind_speed': 28.3, 'humidity': 56.3}, Sent at: 2024-02-06 11:25:56
+2024-02-06 11:26:01,912 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 2.0, 'wind_speed': 18.2, 'humidity': 41.4}
+2024-02-06 11:26:01,912 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 2.0, 'wind_speed': 18.2, 'humidity': 41.4}, Sent at: 2024-02-06 11:26:01
+2024-02-06 11:26:01,912 - INFO - Produced: {'city': 'Vancouver', 'temperature': 3.3, 'wind_speed': 1.9, 'humidity': 83.7}
+2024-02-06 11:26:01,913 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 3.3, 'wind_speed': 1.9, 'humidity': 83.7}, Sent at: 2024-02-06 11:26:01
+2024-02-06 11:26:06,916 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -19.8, 'wind_speed': 7.9, 'humidity': 58.7}
+2024-02-06 11:26:06,917 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -19.8, 'wind_speed': 7.9, 'humidity': 58.7}, Sent at: 2024-02-06 11:26:06
+2024-02-06 11:26:06,917 - INFO - Produced: {'city': 'Vancouver', 'temperature': 24.6, 'wind_speed': 22.2, 'humidity': 69.9}
+2024-02-06 11:26:06,918 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 24.6, 'wind_speed': 22.2, 'humidity': 69.9}, Sent at: 2024-02-06 11:26:06
+2024-02-06 11:26:11,920 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -29.4, 'wind_speed': 1.4, 'humidity': 45.5}
+2024-02-06 11:26:11,921 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -29.4, 'wind_speed': 1.4, 'humidity': 45.5}, Sent at: 2024-02-06 11:26:11
+2024-02-06 11:26:11,921 - INFO - Produced: {'city': 'Vancouver', 'temperature': 20.2, 'wind_speed': 23.8, 'humidity': 39.9}
+2024-02-06 11:26:11,921 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 20.2, 'wind_speed': 23.8, 'humidity': 39.9}, Sent at: 2024-02-06 11:26:11
+2024-02-06 11:26:16,924 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -21.5, 'wind_speed': 18.5, 'humidity': 76.9}
+2024-02-06 11:26:16,925 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -21.5, 'wind_speed': 18.5, 'humidity': 76.9}, Sent at: 2024-02-06 11:26:16
+2024-02-06 11:26:16,925 - INFO - Produced: {'city': 'Vancouver', 'temperature': 3.0, 'wind_speed': 10.6, 'humidity': 32.1}
+2024-02-06 11:26:16,925 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 3.0, 'wind_speed': 10.6, 'humidity': 32.1}, Sent at: 2024-02-06 11:26:16
+2024-02-06 11:26:21,929 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 7.0, 'wind_speed': 16.2, 'humidity': 72.5}
+2024-02-06 11:26:21,934 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 7.0, 'wind_speed': 16.2, 'humidity': 72.5}, Sent at: 2024-02-06 11:26:21
+2024-02-06 11:26:21,934 - INFO - Produced: {'city': 'Vancouver', 'temperature': 16.5, 'wind_speed': 14.0, 'humidity': 71.9}
+2024-02-06 11:26:21,935 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 16.5, 'wind_speed': 14.0, 'humidity': 71.9}, Sent at: 2024-02-06 11:26:21
+2024-02-06 11:26:26,941 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 9.1, 'wind_speed': 36.2, 'humidity': 52.8}
+2024-02-06 11:26:26,942 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 9.1, 'wind_speed': 36.2, 'humidity': 52.8}, Sent at: 2024-02-06 11:26:26
+2024-02-06 11:26:26,942 - INFO - Produced: {'city': 'Vancouver', 'temperature': 17.3, 'wind_speed': 25.8, 'humidity': 57.0}
+2024-02-06 11:26:26,942 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 17.3, 'wind_speed': 25.8, 'humidity': 57.0}, Sent at: 2024-02-06 11:26:26
+2024-02-06 11:26:31,945 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -14.8, 'wind_speed': 11.2, 'humidity': 63.8}
+2024-02-06 11:26:31,945 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -14.8, 'wind_speed': 11.2, 'humidity': 63.8}, Sent at: 2024-02-06 11:26:31
+2024-02-06 11:26:31,945 - INFO - Produced: {'city': 'Vancouver', 'temperature': 11.3, 'wind_speed': 21.1, 'humidity': 39.6}
+2024-02-06 11:26:31,945 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 11.3, 'wind_speed': 21.1, 'humidity': 39.6}, Sent at: 2024-02-06 11:26:31
+2024-02-06 11:26:36,946 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 7.6, 'wind_speed': 42.4, 'humidity': 78.1}
+2024-02-06 11:26:36,947 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 7.6, 'wind_speed': 42.4, 'humidity': 78.1}, Sent at: 2024-02-06 11:26:36
+2024-02-06 11:26:36,947 - INFO - Produced: {'city': 'Vancouver', 'temperature': -1.1, 'wind_speed': 5.6, 'humidity': 92.8}
+2024-02-06 11:26:36,947 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -1.1, 'wind_speed': 5.6, 'humidity': 92.8}, Sent at: 2024-02-06 11:26:36
+2024-02-06 11:26:41,957 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 10.6, 'wind_speed': 22.0, 'humidity': 47.9}
+2024-02-06 11:26:41,958 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 10.6, 'wind_speed': 22.0, 'humidity': 47.9}, Sent at: 2024-02-06 11:26:41
+2024-02-06 11:26:41,958 - INFO - Produced: {'city': 'Vancouver', 'temperature': -0.4, 'wind_speed': 4.8, 'humidity': 87.3}
+2024-02-06 11:26:41,958 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -0.4, 'wind_speed': 4.8, 'humidity': 87.3}, Sent at: 2024-02-06 11:26:41
+2024-02-06 11:26:46,964 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -22.7, 'wind_speed': 8.5, 'humidity': 22.8}
+2024-02-06 11:26:46,964 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -22.7, 'wind_speed': 8.5, 'humidity': 22.8}, Sent at: 2024-02-06 11:26:46
+2024-02-06 11:26:46,965 - INFO - Produced: {'city': 'Vancouver', 'temperature': 10.4, 'wind_speed': 18.6, 'humidity': 52.5}
+2024-02-06 11:26:46,966 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 10.4, 'wind_speed': 18.6, 'humidity': 52.5}, Sent at: 2024-02-06 11:26:46
+2024-02-06 11:26:51,976 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 5.0, 'wind_speed': 2.7, 'humidity': 74.9}
+2024-02-06 11:26:51,978 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 5.0, 'wind_speed': 2.7, 'humidity': 74.9}, Sent at: 2024-02-06 11:26:51
+2024-02-06 11:26:51,978 - INFO - Produced: {'city': 'Vancouver', 'temperature': -3.1, 'wind_speed': 0.1, 'humidity': 91.7}
+2024-02-06 11:26:51,978 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -3.1, 'wind_speed': 0.1, 'humidity': 91.7}, Sent at: 2024-02-06 11:26:51
+2024-02-06 11:26:53,877 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-02-06 11:26:53,877 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-02-06 11:27:19,412 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-02-06 11:27:19,413 - INFO - Probing node bootstrap-0 broker version
+2024-02-06 11:27:19,413 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-02-06 11:27:19,529 - INFO - Broker version identified as 2.5.0
+2024-02-06 11:27:19,529 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-02-06 11:27:19,536 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -3.4, 'wind_speed': 14.1, 'humidity': 73.4}
+2024-02-06 11:27:19,537 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -3.4, 'wind_speed': 14.1, 'humidity': 73.4}, Sent at: 2024-02-06 11:27:19
+2024-02-06 11:27:19,537 - INFO - Produced: {'city': 'Vancouver', 'temperature': 21.9, 'wind_speed': 27.7, 'humidity': 55.0}
+2024-02-06 11:27:19,538 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 21.9, 'wind_speed': 27.7, 'humidity': 55.0}, Sent at: 2024-02-06 11:27:19
+2024-02-06 11:27:19,539 - INFO - <BrokerConnection node_id=0 host=effy-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to effy-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-02-06 11:27:19,541 - INFO - <BrokerConnection node_id=0 host=effy-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-02-06 11:27:19,541 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-02-06 11:27:24,545 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -26.8, 'wind_speed': 29.6, 'humidity': 73.1}
+2024-02-06 11:27:24,546 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -26.8, 'wind_speed': 29.6, 'humidity': 73.1}, Sent at: 2024-02-06 11:27:24
+2024-02-06 11:27:24,547 - INFO - Produced: {'city': 'Vancouver', 'temperature': -0.4, 'wind_speed': 2.7, 'humidity': 34.3}
+2024-02-06 11:27:24,547 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -0.4, 'wind_speed': 2.7, 'humidity': 34.3}, Sent at: 2024-02-06 11:27:24
+2024-02-06 11:27:29,552 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 1.3, 'wind_speed': 20.6, 'humidity': 67.1}
+2024-02-06 11:27:29,553 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 1.3, 'wind_speed': 20.6, 'humidity': 67.1}, Sent at: 2024-02-06 11:27:29
+2024-02-06 11:27:29,553 - INFO - Produced: {'city': 'Vancouver', 'temperature': -9.9, 'wind_speed': 13.3, 'humidity': 88.1}
+2024-02-06 11:27:29,554 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -9.9, 'wind_speed': 13.3, 'humidity': 88.1}, Sent at: 2024-02-06 11:27:29
+2024-02-06 11:27:34,558 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -18.8, 'wind_speed': 15.1, 'humidity': 76.5}
+2024-02-06 11:27:34,559 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -18.8, 'wind_speed': 15.1, 'humidity': 76.5}, Sent at: 2024-02-06 11:27:34
+2024-02-06 11:27:34,559 - INFO - Produced: {'city': 'Vancouver', 'temperature': 8.1, 'wind_speed': 11.6, 'humidity': 50.9}
+2024-02-06 11:27:34,559 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 8.1, 'wind_speed': 11.6, 'humidity': 50.9}, Sent at: 2024-02-06 11:27:34
+2024-02-06 11:27:39,565 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 24.0, 'wind_speed': 34.2, 'humidity': 68.2}
+2024-02-06 11:27:39,566 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 24.0, 'wind_speed': 34.2, 'humidity': 68.2}, Sent at: 2024-02-06 11:27:39
+2024-02-06 11:27:39,566 - INFO - Produced: {'city': 'Vancouver', 'temperature': -5.9, 'wind_speed': 4.4, 'humidity': 75.9}
+2024-02-06 11:27:39,568 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -5.9, 'wind_speed': 4.4, 'humidity': 75.9}, Sent at: 2024-02-06 11:27:39
+2024-02-06 11:27:44,574 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -14.6, 'wind_speed': 3.6, 'humidity': 49.0}
+2024-02-06 11:27:44,575 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -14.6, 'wind_speed': 3.6, 'humidity': 49.0}, Sent at: 2024-02-06 11:27:44
+2024-02-06 11:27:44,575 - INFO - Produced: {'city': 'Vancouver', 'temperature': 1.2, 'wind_speed': 6.2, 'humidity': 65.8}
+2024-02-06 11:27:44,575 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 1.2, 'wind_speed': 6.2, 'humidity': 65.8}, Sent at: 2024-02-06 11:27:44
+2024-02-06 11:27:49,582 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 16.5, 'wind_speed': 5.3, 'humidity': 36.9}
+2024-02-06 11:27:49,583 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 16.5, 'wind_speed': 5.3, 'humidity': 36.9}, Sent at: 2024-02-06 11:27:49
+2024-02-06 11:27:49,583 - INFO - Produced: {'city': 'Vancouver', 'temperature': 16.9, 'wind_speed': 29.3, 'humidity': 37.2}
+2024-02-06 11:27:49,583 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 16.9, 'wind_speed': 29.3, 'humidity': 37.2}, Sent at: 2024-02-06 11:27:49
+2024-02-06 11:27:54,589 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -14.2, 'wind_speed': 24.4, 'humidity': 47.7}
+2024-02-06 11:27:54,589 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -14.2, 'wind_speed': 24.4, 'humidity': 47.7}, Sent at: 2024-02-06 11:27:54
+2024-02-06 11:27:54,590 - INFO - Produced: {'city': 'Vancouver', 'temperature': -1.4, 'wind_speed': 18.5, 'humidity': 92.4}
+2024-02-06 11:27:54,590 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -1.4, 'wind_speed': 18.5, 'humidity': 92.4}, Sent at: 2024-02-06 11:27:54
+2024-02-06 11:27:59,596 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -24.3, 'wind_speed': 29.3, 'humidity': 41.5}
+2024-02-06 11:27:59,597 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -24.3, 'wind_speed': 29.3, 'humidity': 41.5}, Sent at: 2024-02-06 11:27:59
+2024-02-06 11:27:59,597 - INFO - Produced: {'city': 'Vancouver', 'temperature': 20.4, 'wind_speed': 3.4, 'humidity': 69.4}
+2024-02-06 11:27:59,597 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 20.4, 'wind_speed': 3.4, 'humidity': 69.4}, Sent at: 2024-02-06 11:27:59
+2024-02-06 11:28:04,601 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 16.0, 'wind_speed': 43.6, 'humidity': 31.4}
+2024-02-06 11:28:04,602 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 16.0, 'wind_speed': 43.6, 'humidity': 31.4}, Sent at: 2024-02-06 11:28:04
+2024-02-06 11:28:04,602 - INFO - Produced: {'city': 'Vancouver', 'temperature': -7.4, 'wind_speed': 2.7, 'humidity': 67.7}
+2024-02-06 11:28:04,603 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -7.4, 'wind_speed': 2.7, 'humidity': 67.7}, Sent at: 2024-02-06 11:28:04
+2024-02-06 11:28:09,611 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -28.9, 'wind_speed': 16.7, 'humidity': 64.8}
+2024-02-06 11:28:09,611 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -28.9, 'wind_speed': 16.7, 'humidity': 64.8}, Sent at: 2024-02-06 11:28:09
+2024-02-06 11:28:09,612 - INFO - Produced: {'city': 'Vancouver', 'temperature': 7.1, 'wind_speed': 20.6, 'humidity': 85.8}
+2024-02-06 11:28:09,612 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 7.1, 'wind_speed': 20.6, 'humidity': 85.8}, Sent at: 2024-02-06 11:28:09
+2024-02-06 11:28:14,616 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -7.8, 'wind_speed': 45.3, 'humidity': 29.1}
+2024-02-06 11:28:14,617 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -7.8, 'wind_speed': 45.3, 'humidity': 29.1}, Sent at: 2024-02-06 11:28:14
+2024-02-06 11:28:14,618 - INFO - Produced: {'city': 'Vancouver', 'temperature': 15.0, 'wind_speed': 22.4, 'humidity': 57.7}
+2024-02-06 11:28:14,619 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 15.0, 'wind_speed': 22.4, 'humidity': 57.7}, Sent at: 2024-02-06 11:28:14
+2024-02-06 11:28:19,623 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 29.1, 'wind_speed': 4.5, 'humidity': 50.1}
+2024-02-06 11:28:19,624 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 29.1, 'wind_speed': 4.5, 'humidity': 50.1}, Sent at: 2024-02-06 11:28:19
+2024-02-06 11:28:19,624 - INFO - Produced: {'city': 'Vancouver', 'temperature': 7.3, 'wind_speed': 26.3, 'humidity': 32.9}
+2024-02-06 11:28:19,625 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 7.3, 'wind_speed': 26.3, 'humidity': 32.9}, Sent at: 2024-02-06 11:28:19
+2024-02-06 11:28:24,632 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -19.3, 'wind_speed': 39.1, 'humidity': 56.6}
+2024-02-06 11:28:24,633 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -19.3, 'wind_speed': 39.1, 'humidity': 56.6}, Sent at: 2024-02-06 11:28:24
+2024-02-06 11:28:24,633 - INFO - Produced: {'city': 'Vancouver', 'temperature': 16.2, 'wind_speed': 12.0, 'humidity': 77.8}
+2024-02-06 11:28:24,633 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 16.2, 'wind_speed': 12.0, 'humidity': 77.8}, Sent at: 2024-02-06 11:28:24
+2024-02-06 11:28:29,641 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -13.7, 'wind_speed': 23.6, 'humidity': 28.9}
+2024-02-06 11:28:29,644 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -13.7, 'wind_speed': 23.6, 'humidity': 28.9}, Sent at: 2024-02-06 11:28:29
+2024-02-06 11:28:29,644 - INFO - Produced: {'city': 'Vancouver', 'temperature': 2.5, 'wind_speed': 26.3, 'humidity': 69.2}
+2024-02-06 11:28:29,644 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 2.5, 'wind_speed': 26.3, 'humidity': 69.2}, Sent at: 2024-02-06 11:28:29
+2024-02-06 11:28:34,656 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -6.0, 'wind_speed': 38.8, 'humidity': 61.4}
+2024-02-06 11:28:34,659 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -6.0, 'wind_speed': 38.8, 'humidity': 61.4}, Sent at: 2024-02-06 11:28:34
+2024-02-06 11:28:34,660 - INFO - Produced: {'city': 'Vancouver', 'temperature': -0.9, 'wind_speed': 21.6, 'humidity': 61.4}
+2024-02-06 11:28:34,661 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -0.9, 'wind_speed': 21.6, 'humidity': 61.4}, Sent at: 2024-02-06 11:28:34
+2024-02-06 11:28:39,664 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 24.7, 'wind_speed': 48.2, 'humidity': 33.3}
+2024-02-06 11:28:39,665 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 24.7, 'wind_speed': 48.2, 'humidity': 33.3}, Sent at: 2024-02-06 11:28:39
+2024-02-06 11:28:39,665 - INFO - Produced: {'city': 'Vancouver', 'temperature': 15.4, 'wind_speed': 22.2, 'humidity': 56.9}
+2024-02-06 11:28:39,665 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 15.4, 'wind_speed': 22.2, 'humidity': 56.9}, Sent at: 2024-02-06 11:28:39
+2024-02-06 11:28:44,671 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -27.2, 'wind_speed': 18.8, 'humidity': 38.7}
+2024-02-06 11:28:44,671 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -27.2, 'wind_speed': 18.8, 'humidity': 38.7}, Sent at: 2024-02-06 11:28:44
+2024-02-06 11:28:44,671 - INFO - Produced: {'city': 'Vancouver', 'temperature': 11.5, 'wind_speed': 12.6, 'humidity': 70.1}
+2024-02-06 11:28:44,672 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 11.5, 'wind_speed': 12.6, 'humidity': 70.1}, Sent at: 2024-02-06 11:28:44
+2024-02-06 11:28:49,686 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 7.7, 'wind_speed': 33.9, 'humidity': 63.9}
+2024-02-06 11:28:49,688 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 7.7, 'wind_speed': 33.9, 'humidity': 63.9}, Sent at: 2024-02-06 11:28:49
+2024-02-06 11:28:49,688 - INFO - Produced: {'city': 'Vancouver', 'temperature': -3.1, 'wind_speed': 15.5, 'humidity': 36.1}
+2024-02-06 11:28:49,688 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -3.1, 'wind_speed': 15.5, 'humidity': 36.1}, Sent at: 2024-02-06 11:28:49
+2024-02-06 11:28:54,690 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 17.3, 'wind_speed': 36.1, 'humidity': 52.3}
+2024-02-06 11:28:54,691 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 17.3, 'wind_speed': 36.1, 'humidity': 52.3}, Sent at: 2024-02-06 11:28:54
+2024-02-06 11:28:54,691 - INFO - Produced: {'city': 'Vancouver', 'temperature': 4.9, 'wind_speed': 3.1, 'humidity': 41.8}
+2024-02-06 11:28:54,692 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 4.9, 'wind_speed': 3.1, 'humidity': 41.8}, Sent at: 2024-02-06 11:28:54
+2024-02-06 11:28:59,694 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -15.3, 'wind_speed': 5.6, 'humidity': 42.9}
+2024-02-06 11:28:59,696 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -15.3, 'wind_speed': 5.6, 'humidity': 42.9}, Sent at: 2024-02-06 11:28:59
+2024-02-06 11:28:59,696 - INFO - Produced: {'city': 'Vancouver', 'temperature': -0.8, 'wind_speed': 23.7, 'humidity': 42.4}
+2024-02-06 11:28:59,696 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -0.8, 'wind_speed': 23.7, 'humidity': 42.4}, Sent at: 2024-02-06 11:28:59
+2024-02-06 11:29:04,704 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -21.3, 'wind_speed': 47.6, 'humidity': 23.3}
+2024-02-06 11:29:04,705 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -21.3, 'wind_speed': 47.6, 'humidity': 23.3}, Sent at: 2024-02-06 11:29:04
+2024-02-06 11:29:04,705 - INFO - Produced: {'city': 'Vancouver', 'temperature': 4.5, 'wind_speed': 28.6, 'humidity': 56.6}
+2024-02-06 11:29:04,705 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 4.5, 'wind_speed': 28.6, 'humidity': 56.6}, Sent at: 2024-02-06 11:29:04
+2024-02-06 11:29:09,710 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -5.9, 'wind_speed': 14.8, 'humidity': 32.6}
+2024-02-06 11:29:09,710 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -5.9, 'wind_speed': 14.8, 'humidity': 32.6}, Sent at: 2024-02-06 11:29:09
+2024-02-06 11:29:09,710 - INFO - Produced: {'city': 'Vancouver', 'temperature': 5.5, 'wind_speed': 20.9, 'humidity': 75.0}
+2024-02-06 11:29:09,710 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 5.5, 'wind_speed': 20.9, 'humidity': 75.0}, Sent at: 2024-02-06 11:29:09
+2024-02-06 11:29:14,716 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -0.2, 'wind_speed': 5.9, 'humidity': 27.5}
+2024-02-06 11:29:14,717 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -0.2, 'wind_speed': 5.9, 'humidity': 27.5}, Sent at: 2024-02-06 11:29:14
+2024-02-06 11:29:14,717 - INFO - Produced: {'city': 'Vancouver', 'temperature': 4.7, 'wind_speed': 20.4, 'humidity': 48.0}
+2024-02-06 11:29:14,717 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 4.7, 'wind_speed': 20.4, 'humidity': 48.0}, Sent at: 2024-02-06 11:29:14
+2024-02-06 11:29:19,724 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 10.3, 'wind_speed': 26.1, 'humidity': 21.6}
+2024-02-06 11:29:19,725 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 10.3, 'wind_speed': 26.1, 'humidity': 21.6}, Sent at: 2024-02-06 11:29:19
+2024-02-06 11:29:19,725 - INFO - Produced: {'city': 'Vancouver', 'temperature': 17.5, 'wind_speed': 6.6, 'humidity': 45.1}
+2024-02-06 11:29:19,726 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 17.5, 'wind_speed': 6.6, 'humidity': 45.1}, Sent at: 2024-02-06 11:29:19
+2024-02-06 11:29:24,743 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 17.8, 'wind_speed': 33.3, 'humidity': 72.0}
+2024-02-06 11:29:24,757 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 17.8, 'wind_speed': 33.3, 'humidity': 72.0}, Sent at: 2024-02-06 11:29:24
+2024-02-06 11:29:24,757 - INFO - Produced: {'city': 'Vancouver', 'temperature': 8.4, 'wind_speed': 5.4, 'humidity': 36.1}
+2024-02-06 11:29:24,757 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 8.4, 'wind_speed': 5.4, 'humidity': 36.1}, Sent at: 2024-02-06 11:29:24
+2024-02-06 11:29:29,767 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 1.8, 'wind_speed': 45.1, 'humidity': 78.6}
+2024-02-06 11:29:29,771 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 1.8, 'wind_speed': 45.1, 'humidity': 78.6}, Sent at: 2024-02-06 11:29:29
+2024-02-06 11:29:29,771 - INFO - Produced: {'city': 'Vancouver', 'temperature': 13.2, 'wind_speed': 8.5, 'humidity': 84.5}
+2024-02-06 11:29:29,771 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 13.2, 'wind_speed': 8.5, 'humidity': 84.5}, Sent at: 2024-02-06 11:29:29
+2024-02-06 11:29:34,779 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 24.6, 'wind_speed': 37.7, 'humidity': 71.8}
+2024-02-06 11:29:34,780 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 24.6, 'wind_speed': 37.7, 'humidity': 71.8}, Sent at: 2024-02-06 11:29:34
+2024-02-06 11:29:34,781 - INFO - Produced: {'city': 'Vancouver', 'temperature': -6.8, 'wind_speed': 9.9, 'humidity': 92.5}
+2024-02-06 11:29:34,783 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -6.8, 'wind_speed': 9.9, 'humidity': 92.5}, Sent at: 2024-02-06 11:29:34
+2024-02-06 11:29:39,790 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -8.1, 'wind_speed': 5.2, 'humidity': 26.4}
+2024-02-06 11:29:39,791 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -8.1, 'wind_speed': 5.2, 'humidity': 26.4}, Sent at: 2024-02-06 11:29:39
+2024-02-06 11:29:39,791 - INFO - Produced: {'city': 'Vancouver', 'temperature': 12.2, 'wind_speed': 6.6, 'humidity': 51.1}
+2024-02-06 11:29:39,791 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 12.2, 'wind_speed': 6.6, 'humidity': 51.1}, Sent at: 2024-02-06 11:29:39
+2024-02-06 11:29:44,798 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -6.7, 'wind_speed': 43.5, 'humidity': 23.0}
+2024-02-06 11:29:44,817 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -6.7, 'wind_speed': 43.5, 'humidity': 23.0}, Sent at: 2024-02-06 11:29:44
+2024-02-06 11:29:44,817 - INFO - Produced: {'city': 'Vancouver', 'temperature': 9.8, 'wind_speed': 4.5, 'humidity': 36.4}
+2024-02-06 11:29:44,817 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 9.8, 'wind_speed': 4.5, 'humidity': 36.4}, Sent at: 2024-02-06 11:29:44
+2024-02-06 11:29:49,825 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 10.1, 'wind_speed': 25.0, 'humidity': 76.5}
+2024-02-06 11:29:49,826 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 10.1, 'wind_speed': 25.0, 'humidity': 76.5}, Sent at: 2024-02-06 11:29:49
+2024-02-06 11:29:49,826 - INFO - Produced: {'city': 'Vancouver', 'temperature': 1.5, 'wind_speed': 27.7, 'humidity': 66.7}
+2024-02-06 11:29:49,826 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 1.5, 'wind_speed': 27.7, 'humidity': 66.7}, Sent at: 2024-02-06 11:29:49
+2024-02-06 11:29:54,831 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -16.3, 'wind_speed': 33.0, 'humidity': 67.5}
+2024-02-06 11:29:54,832 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -16.3, 'wind_speed': 33.0, 'humidity': 67.5}, Sent at: 2024-02-06 11:29:54
+2024-02-06 11:29:54,832 - INFO - Produced: {'city': 'Vancouver', 'temperature': 14.2, 'wind_speed': 8.5, 'humidity': 47.8}
+2024-02-06 11:29:54,832 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 14.2, 'wind_speed': 8.5, 'humidity': 47.8}, Sent at: 2024-02-06 11:29:54
+2024-02-06 11:29:59,839 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 12.8, 'wind_speed': 7.5, 'humidity': 49.0}
+2024-02-06 11:29:59,839 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 12.8, 'wind_speed': 7.5, 'humidity': 49.0}, Sent at: 2024-02-06 11:29:59
+2024-02-06 11:29:59,840 - INFO - Produced: {'city': 'Vancouver', 'temperature': 3.3, 'wind_speed': 8.4, 'humidity': 57.9}
+2024-02-06 11:29:59,840 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 3.3, 'wind_speed': 8.4, 'humidity': 57.9}, Sent at: 2024-02-06 11:29:59
+2024-02-06 11:30:04,845 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -17.6, 'wind_speed': 29.7, 'humidity': 62.4}
+2024-02-06 11:30:04,846 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -17.6, 'wind_speed': 29.7, 'humidity': 62.4}, Sent at: 2024-02-06 11:30:04
+2024-02-06 11:30:04,846 - INFO - Produced: {'city': 'Vancouver', 'temperature': 22.2, 'wind_speed': 19.2, 'humidity': 71.4}
+2024-02-06 11:30:04,846 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 22.2, 'wind_speed': 19.2, 'humidity': 71.4}, Sent at: 2024-02-06 11:30:04
+2024-02-06 11:30:09,849 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 12.5, 'wind_speed': 41.7, 'humidity': 42.2}
+2024-02-06 11:30:09,850 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 12.5, 'wind_speed': 41.7, 'humidity': 42.2}, Sent at: 2024-02-06 11:30:09
+2024-02-06 11:30:09,850 - INFO - Produced: {'city': 'Vancouver', 'temperature': 13.6, 'wind_speed': 25.4, 'humidity': 43.0}
+2024-02-06 11:30:09,850 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 13.6, 'wind_speed': 25.4, 'humidity': 43.0}, Sent at: 2024-02-06 11:30:09
+2024-02-06 11:30:14,857 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 18.8, 'wind_speed': 49.9, 'humidity': 41.1}
+2024-02-06 11:30:14,860 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 18.8, 'wind_speed': 49.9, 'humidity': 41.1}, Sent at: 2024-02-06 11:30:14
+2024-02-06 11:30:14,861 - INFO - Produced: {'city': 'Vancouver', 'temperature': -2.4, 'wind_speed': 12.4, 'humidity': 44.2}
+2024-02-06 11:30:14,862 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -2.4, 'wind_speed': 12.4, 'humidity': 44.2}, Sent at: 2024-02-06 11:30:14
+2024-02-06 11:30:19,865 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 9.8, 'wind_speed': 29.3, 'humidity': 48.2}
+2024-02-06 11:30:19,866 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 9.8, 'wind_speed': 29.3, 'humidity': 48.2}, Sent at: 2024-02-06 11:30:19
+2024-02-06 11:30:19,866 - INFO - Produced: {'city': 'Vancouver', 'temperature': 8.3, 'wind_speed': 17.7, 'humidity': 85.3}
+2024-02-06 11:30:19,869 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 8.3, 'wind_speed': 17.7, 'humidity': 85.3}, Sent at: 2024-02-06 11:30:19
+2024-02-06 11:30:24,870 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 5.1, 'wind_speed': 4.3, 'humidity': 39.5}
+2024-02-06 11:30:24,871 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 5.1, 'wind_speed': 4.3, 'humidity': 39.5}, Sent at: 2024-02-06 11:30:24
+2024-02-06 11:30:24,871 - INFO - Produced: {'city': 'Vancouver', 'temperature': -0.2, 'wind_speed': 20.2, 'humidity': 48.3}
+2024-02-06 11:30:24,871 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -0.2, 'wind_speed': 20.2, 'humidity': 48.3}, Sent at: 2024-02-06 11:30:24
+2024-02-06 11:30:29,876 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -23.4, 'wind_speed': 11.4, 'humidity': 20.7}
+2024-02-06 11:30:29,877 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -23.4, 'wind_speed': 11.4, 'humidity': 20.7}, Sent at: 2024-02-06 11:30:29
+2024-02-06 11:30:29,879 - INFO - Produced: {'city': 'Vancouver', 'temperature': 12.1, 'wind_speed': 3.9, 'humidity': 96.3}
+2024-02-06 11:30:29,879 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 12.1, 'wind_speed': 3.9, 'humidity': 96.3}, Sent at: 2024-02-06 11:30:29
+2024-02-06 11:30:34,884 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -15.2, 'wind_speed': 26.4, 'humidity': 69.6}
+2024-02-06 11:30:34,889 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -15.2, 'wind_speed': 26.4, 'humidity': 69.6}, Sent at: 2024-02-06 11:30:34
+2024-02-06 11:30:34,895 - INFO - Produced: {'city': 'Vancouver', 'temperature': 6.5, 'wind_speed': 24.3, 'humidity': 74.5}
+2024-02-06 11:30:34,896 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 6.5, 'wind_speed': 24.3, 'humidity': 74.5}, Sent at: 2024-02-06 11:30:34
+2024-02-06 11:30:39,905 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -7.6, 'wind_speed': 34.0, 'humidity': 35.5}
+2024-02-06 11:30:39,906 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -7.6, 'wind_speed': 34.0, 'humidity': 35.5}, Sent at: 2024-02-06 11:30:39
+2024-02-06 11:30:39,906 - INFO - Produced: {'city': 'Vancouver', 'temperature': -8.6, 'wind_speed': 12.1, 'humidity': 92.9}
+2024-02-06 11:30:39,906 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -8.6, 'wind_speed': 12.1, 'humidity': 92.9}, Sent at: 2024-02-06 11:30:39
+2024-02-06 11:30:44,918 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 18.0, 'wind_speed': 17.9, 'humidity': 75.4}
+2024-02-06 11:30:44,920 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 18.0, 'wind_speed': 17.9, 'humidity': 75.4}, Sent at: 2024-02-06 11:30:44
+2024-02-06 11:30:44,920 - INFO - Produced: {'city': 'Vancouver', 'temperature': 24.3, 'wind_speed': 7.4, 'humidity': 30.3}
+2024-02-06 11:30:44,920 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 24.3, 'wind_speed': 7.4, 'humidity': 30.3}, Sent at: 2024-02-06 11:30:44
+2024-02-06 11:30:49,925 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -22.4, 'wind_speed': 34.3, 'humidity': 54.1}
+2024-02-06 11:30:49,926 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -22.4, 'wind_speed': 34.3, 'humidity': 54.1}, Sent at: 2024-02-06 11:30:49
+2024-02-06 11:30:49,926 - INFO - Produced: {'city': 'Vancouver', 'temperature': 8.7, 'wind_speed': 1.1, 'humidity': 57.0}
+2024-02-06 11:30:49,926 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 8.7, 'wind_speed': 1.1, 'humidity': 57.0}, Sent at: 2024-02-06 11:30:49
+2024-02-06 11:30:54,934 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -26.8, 'wind_speed': 42.0, 'humidity': 47.6}
+2024-02-06 11:30:54,935 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -26.8, 'wind_speed': 42.0, 'humidity': 47.6}, Sent at: 2024-02-06 11:30:54
+2024-02-06 11:30:54,936 - INFO - Produced: {'city': 'Vancouver', 'temperature': 11.9, 'wind_speed': 4.6, 'humidity': 57.1}
+2024-02-06 11:30:54,936 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 11.9, 'wind_speed': 4.6, 'humidity': 57.1}, Sent at: 2024-02-06 11:30:54
+2024-02-06 11:30:59,941 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -14.9, 'wind_speed': 41.2, 'humidity': 47.1}
+2024-02-06 11:30:59,942 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -14.9, 'wind_speed': 41.2, 'humidity': 47.1}, Sent at: 2024-02-06 11:30:59
+2024-02-06 11:30:59,942 - INFO - Produced: {'city': 'Vancouver', 'temperature': 13.1, 'wind_speed': 28.9, 'humidity': 62.4}
+2024-02-06 11:30:59,942 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 13.1, 'wind_speed': 28.9, 'humidity': 62.4}, Sent at: 2024-02-06 11:30:59
+2024-02-06 11:31:04,943 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -8.6, 'wind_speed': 16.9, 'humidity': 30.6}
+2024-02-06 11:31:04,944 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -8.6, 'wind_speed': 16.9, 'humidity': 30.6}, Sent at: 2024-02-06 11:31:04
+2024-02-06 11:31:04,944 - INFO - Produced: {'city': 'Vancouver', 'temperature': 10.4, 'wind_speed': 29.3, 'humidity': 67.9}
+2024-02-06 11:31:04,944 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 10.4, 'wind_speed': 29.3, 'humidity': 67.9}, Sent at: 2024-02-06 11:31:04
+2024-02-06 11:31:09,953 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 7.8, 'wind_speed': 31.7, 'humidity': 65.5}
+2024-02-06 11:31:09,955 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 7.8, 'wind_speed': 31.7, 'humidity': 65.5}, Sent at: 2024-02-06 11:31:09
+2024-02-06 11:31:09,955 - INFO - Produced: {'city': 'Vancouver', 'temperature': -8.8, 'wind_speed': 23.1, 'humidity': 41.5}
+2024-02-06 11:31:09,955 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -8.8, 'wind_speed': 23.1, 'humidity': 41.5}, Sent at: 2024-02-06 11:31:09
+2024-02-06 11:31:14,961 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -1.7, 'wind_speed': 31.5, 'humidity': 39.7}
+2024-02-06 11:31:14,962 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -1.7, 'wind_speed': 31.5, 'humidity': 39.7}, Sent at: 2024-02-06 11:31:14
+2024-02-06 11:31:14,964 - INFO - Produced: {'city': 'Vancouver', 'temperature': 14.3, 'wind_speed': 14.0, 'humidity': 89.1}
+2024-02-06 11:31:14,966 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 14.3, 'wind_speed': 14.0, 'humidity': 89.1}, Sent at: 2024-02-06 11:31:14
+2024-02-06 11:31:19,967 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 21.7, 'wind_speed': 22.7, 'humidity': 48.0}
+2024-02-06 11:31:19,968 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 21.7, 'wind_speed': 22.7, 'humidity': 48.0}, Sent at: 2024-02-06 11:31:19
+2024-02-06 11:31:19,969 - INFO - Produced: {'city': 'Vancouver', 'temperature': 16.3, 'wind_speed': 14.7, 'humidity': 30.4}
+2024-02-06 11:31:19,969 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 16.3, 'wind_speed': 14.7, 'humidity': 30.4}, Sent at: 2024-02-06 11:31:19
+2024-02-06 11:31:24,973 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 27.0, 'wind_speed': 3.1, 'humidity': 32.0}
+2024-02-06 11:31:24,973 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 27.0, 'wind_speed': 3.1, 'humidity': 32.0}, Sent at: 2024-02-06 11:31:24
+2024-02-06 11:31:24,973 - INFO - Produced: {'city': 'Vancouver', 'temperature': 11.4, 'wind_speed': 17.8, 'humidity': 48.4}
+2024-02-06 11:31:24,974 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 11.4, 'wind_speed': 17.8, 'humidity': 48.4}, Sent at: 2024-02-06 11:31:24
+2024-02-06 11:31:29,978 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -22.4, 'wind_speed': 12.5, 'humidity': 66.9}
+2024-02-06 11:31:29,979 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -22.4, 'wind_speed': 12.5, 'humidity': 66.9}, Sent at: 2024-02-06 11:31:29
+2024-02-06 11:31:29,979 - INFO - Produced: {'city': 'Vancouver', 'temperature': 15.3, 'wind_speed': 24.9, 'humidity': 88.0}
+2024-02-06 11:31:29,979 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 15.3, 'wind_speed': 24.9, 'humidity': 88.0}, Sent at: 2024-02-06 11:31:29
+2024-02-06 11:31:34,979 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -16.3, 'wind_speed': 35.8, 'humidity': 52.5}
+2024-02-06 11:31:34,980 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -16.3, 'wind_speed': 35.8, 'humidity': 52.5}, Sent at: 2024-02-06 11:31:34
+2024-02-06 11:31:34,980 - INFO - Produced: {'city': 'Vancouver', 'temperature': -9.7, 'wind_speed': 29.5, 'humidity': 73.0}
+2024-02-06 11:31:34,980 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -9.7, 'wind_speed': 29.5, 'humidity': 73.0}, Sent at: 2024-02-06 11:31:34
+2024-02-06 11:31:39,991 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 27.4, 'wind_speed': 38.6, 'humidity': 76.9}
+2024-02-06 11:31:39,992 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 27.4, 'wind_speed': 38.6, 'humidity': 76.9}, Sent at: 2024-02-06 11:31:39
+2024-02-06 11:31:39,992 - INFO - Produced: {'city': 'Vancouver', 'temperature': 14.4, 'wind_speed': 22.4, 'humidity': 93.7}
+2024-02-06 11:31:39,992 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 14.4, 'wind_speed': 22.4, 'humidity': 93.7}, Sent at: 2024-02-06 11:31:39
+2024-02-06 11:31:45,005 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -10.2, 'wind_speed': 33.9, 'humidity': 38.5}
+2024-02-06 11:31:45,011 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -10.2, 'wind_speed': 33.9, 'humidity': 38.5}, Sent at: 2024-02-06 11:31:45
+2024-02-06 11:31:45,011 - INFO - Produced: {'city': 'Vancouver', 'temperature': -2.5, 'wind_speed': 11.6, 'humidity': 95.8}
+2024-02-06 11:31:45,017 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -2.5, 'wind_speed': 11.6, 'humidity': 95.8}, Sent at: 2024-02-06 11:31:45
+2024-02-06 11:31:50,023 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 28.8, 'wind_speed': 36.3, 'humidity': 62.5}
+2024-02-06 11:31:50,024 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 28.8, 'wind_speed': 36.3, 'humidity': 62.5}, Sent at: 2024-02-06 11:31:50
+2024-02-06 11:31:50,024 - INFO - Produced: {'city': 'Vancouver', 'temperature': 24.6, 'wind_speed': 7.3, 'humidity': 89.6}
+2024-02-06 11:31:50,024 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 24.6, 'wind_speed': 7.3, 'humidity': 89.6}, Sent at: 2024-02-06 11:31:50
+2024-02-06 11:31:55,028 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 11.2, 'wind_speed': 40.9, 'humidity': 31.5}
+2024-02-06 11:31:55,029 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 11.2, 'wind_speed': 40.9, 'humidity': 31.5}, Sent at: 2024-02-06 11:31:55
+2024-02-06 11:31:55,029 - INFO - Produced: {'city': 'Vancouver', 'temperature': -6.9, 'wind_speed': 1.1, 'humidity': 91.3}
+2024-02-06 11:31:55,029 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -6.9, 'wind_speed': 1.1, 'humidity': 91.3}, Sent at: 2024-02-06 11:31:55
+2024-02-06 11:32:00,033 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -2.9, 'wind_speed': 45.0, 'humidity': 29.8}
+2024-02-06 11:32:00,034 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -2.9, 'wind_speed': 45.0, 'humidity': 29.8}, Sent at: 2024-02-06 11:32:00
+2024-02-06 11:32:00,034 - INFO - Produced: {'city': 'Vancouver', 'temperature': 17.3, 'wind_speed': 19.2, 'humidity': 30.9}
+2024-02-06 11:32:00,034 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 17.3, 'wind_speed': 19.2, 'humidity': 30.9}, Sent at: 2024-02-06 11:32:00
+2024-02-06 11:32:05,046 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 18.7, 'wind_speed': 23.3, 'humidity': 70.9}
+2024-02-06 11:32:05,068 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 18.7, 'wind_speed': 23.3, 'humidity': 70.9}, Sent at: 2024-02-06 11:32:05
+2024-02-06 11:32:05,068 - INFO - Produced: {'city': 'Vancouver', 'temperature': 5.2, 'wind_speed': 2.2, 'humidity': 56.3}
+2024-02-06 11:32:05,074 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 5.2, 'wind_speed': 2.2, 'humidity': 56.3}, Sent at: 2024-02-06 11:32:05
+2024-02-06 11:32:10,080 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -9.3, 'wind_speed': 13.2, 'humidity': 64.5}
+2024-02-06 11:32:10,080 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -9.3, 'wind_speed': 13.2, 'humidity': 64.5}, Sent at: 2024-02-06 11:32:10
+2024-02-06 11:32:10,081 - INFO - Produced: {'city': 'Vancouver', 'temperature': -4.8, 'wind_speed': 23.3, 'humidity': 79.5}
+2024-02-06 11:32:10,082 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -4.8, 'wind_speed': 23.3, 'humidity': 79.5}, Sent at: 2024-02-06 11:32:10
+2024-02-06 11:32:15,108 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 23.2, 'wind_speed': 28.1, 'humidity': 72.0}
+2024-02-06 11:32:15,109 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 23.2, 'wind_speed': 28.1, 'humidity': 72.0}, Sent at: 2024-02-06 11:32:15
+2024-02-06 11:32:15,110 - INFO - Produced: {'city': 'Vancouver', 'temperature': -7.0, 'wind_speed': 4.7, 'humidity': 72.2}
+2024-02-06 11:32:15,111 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -7.0, 'wind_speed': 4.7, 'humidity': 72.2}, Sent at: 2024-02-06 11:32:15
+2024-02-06 11:32:20,119 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -26.4, 'wind_speed': 22.4, 'humidity': 60.2}
+2024-02-06 11:32:20,126 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -26.4, 'wind_speed': 22.4, 'humidity': 60.2}, Sent at: 2024-02-06 11:32:20
+2024-02-06 11:32:20,127 - INFO - Produced: {'city': 'Vancouver', 'temperature': 23.1, 'wind_speed': 19.0, 'humidity': 47.4}
+2024-02-06 11:32:20,128 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 23.1, 'wind_speed': 19.0, 'humidity': 47.4}, Sent at: 2024-02-06 11:32:20
+2024-02-06 11:32:25,134 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 0.4, 'wind_speed': 3.3, 'humidity': 49.9}
+2024-02-06 11:32:25,135 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 0.4, 'wind_speed': 3.3, 'humidity': 49.9}, Sent at: 2024-02-06 11:32:25
+2024-02-06 11:32:25,135 - INFO - Produced: {'city': 'Vancouver', 'temperature': -7.9, 'wind_speed': 4.6, 'humidity': 78.8}
+2024-02-06 11:32:25,135 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -7.9, 'wind_speed': 4.6, 'humidity': 78.8}, Sent at: 2024-02-06 11:32:25
+2024-02-06 11:32:30,142 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 12.6, 'wind_speed': 45.8, 'humidity': 58.4}
+2024-02-06 11:32:30,143 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 12.6, 'wind_speed': 45.8, 'humidity': 58.4}, Sent at: 2024-02-06 11:32:30
+2024-02-06 11:32:30,144 - INFO - Produced: {'city': 'Vancouver', 'temperature': 0.7, 'wind_speed': 11.0, 'humidity': 77.8}
+2024-02-06 11:32:30,145 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 0.7, 'wind_speed': 11.0, 'humidity': 77.8}, Sent at: 2024-02-06 11:32:30
+2024-02-06 11:32:35,148 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 2.1, 'wind_speed': 44.1, 'humidity': 72.0}
+2024-02-06 11:32:35,149 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 2.1, 'wind_speed': 44.1, 'humidity': 72.0}, Sent at: 2024-02-06 11:32:35
+2024-02-06 11:32:35,149 - INFO - Produced: {'city': 'Vancouver', 'temperature': 14.6, 'wind_speed': 4.9, 'humidity': 60.2}
+2024-02-06 11:32:35,150 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 14.6, 'wind_speed': 4.9, 'humidity': 60.2}, Sent at: 2024-02-06 11:32:35
+2024-02-06 11:32:40,155 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -24.5, 'wind_speed': 9.8, 'humidity': 23.3}
+2024-02-06 11:32:40,161 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -24.5, 'wind_speed': 9.8, 'humidity': 23.3}, Sent at: 2024-02-06 11:32:40
+2024-02-06 11:32:40,164 - INFO - Produced: {'city': 'Vancouver', 'temperature': 3.8, 'wind_speed': 23.7, 'humidity': 62.1}
+2024-02-06 11:32:40,170 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 3.8, 'wind_speed': 23.7, 'humidity': 62.1}, Sent at: 2024-02-06 11:32:40
+2024-02-06 11:32:45,185 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 4.5, 'wind_speed': 16.5, 'humidity': 54.9}
+2024-02-06 11:32:45,186 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 4.5, 'wind_speed': 16.5, 'humidity': 54.9}, Sent at: 2024-02-06 11:32:45
+2024-02-06 11:32:45,186 - INFO - Produced: {'city': 'Vancouver', 'temperature': -8.1, 'wind_speed': 8.7, 'humidity': 75.7}
+2024-02-06 11:32:45,186 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -8.1, 'wind_speed': 8.7, 'humidity': 75.7}, Sent at: 2024-02-06 11:32:45
+2024-02-06 11:32:50,192 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -7.3, 'wind_speed': 41.8, 'humidity': 75.3}
+2024-02-06 11:32:50,193 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -7.3, 'wind_speed': 41.8, 'humidity': 75.3}, Sent at: 2024-02-06 11:32:50
+2024-02-06 11:32:50,193 - INFO - Produced: {'city': 'Vancouver', 'temperature': -4.6, 'wind_speed': 7.4, 'humidity': 86.7}
+2024-02-06 11:32:50,193 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -4.6, 'wind_speed': 7.4, 'humidity': 86.7}, Sent at: 2024-02-06 11:32:50
+2024-02-06 11:32:55,200 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 13.5, 'wind_speed': 19.2, 'humidity': 56.8}
+2024-02-06 11:32:55,201 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 13.5, 'wind_speed': 19.2, 'humidity': 56.8}, Sent at: 2024-02-06 11:32:55
+2024-02-06 11:32:55,201 - INFO - Produced: {'city': 'Vancouver', 'temperature': 17.8, 'wind_speed': 11.5, 'humidity': 91.0}
+2024-02-06 11:32:55,202 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 17.8, 'wind_speed': 11.5, 'humidity': 91.0}, Sent at: 2024-02-06 11:32:55
+2024-02-06 11:33:00,208 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 22.6, 'wind_speed': 10.6, 'humidity': 53.3}
+2024-02-06 11:33:00,213 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 22.6, 'wind_speed': 10.6, 'humidity': 53.3}, Sent at: 2024-02-06 11:33:00
+2024-02-06 11:33:00,214 - INFO - Produced: {'city': 'Vancouver', 'temperature': -1.5, 'wind_speed': 13.7, 'humidity': 53.6}
+2024-02-06 11:33:00,214 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -1.5, 'wind_speed': 13.7, 'humidity': 53.6}, Sent at: 2024-02-06 11:33:00
+2024-02-06 11:33:05,219 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 7.9, 'wind_speed': 1.9, 'humidity': 26.9}
+2024-02-06 11:33:05,224 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 7.9, 'wind_speed': 1.9, 'humidity': 26.9}, Sent at: 2024-02-06 11:33:05
+2024-02-06 11:33:05,225 - INFO - Produced: {'city': 'Vancouver', 'temperature': 17.3, 'wind_speed': 4.3, 'humidity': 88.6}
+2024-02-06 11:33:05,225 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 17.3, 'wind_speed': 4.3, 'humidity': 88.6}, Sent at: 2024-02-06 11:33:05
+2024-02-06 11:33:10,231 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 24.1, 'wind_speed': 38.6, 'humidity': 51.2}
+2024-02-06 11:33:10,232 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 24.1, 'wind_speed': 38.6, 'humidity': 51.2}, Sent at: 2024-02-06 11:33:10
+2024-02-06 11:33:10,232 - INFO - Produced: {'city': 'Vancouver', 'temperature': 5.2, 'wind_speed': 18.2, 'humidity': 86.4}
+2024-02-06 11:33:10,233 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 5.2, 'wind_speed': 18.2, 'humidity': 86.4}, Sent at: 2024-02-06 11:33:10
+2024-02-06 11:33:15,237 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 25.1, 'wind_speed': 21.6, 'humidity': 64.8}
+2024-02-06 11:33:15,238 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 25.1, 'wind_speed': 21.6, 'humidity': 64.8}, Sent at: 2024-02-06 11:33:15
+2024-02-06 11:33:15,238 - INFO - Produced: {'city': 'Vancouver', 'temperature': 14.3, 'wind_speed': 29.7, 'humidity': 39.0}
+2024-02-06 11:33:15,240 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 14.3, 'wind_speed': 29.7, 'humidity': 39.0}, Sent at: 2024-02-06 11:33:15
+2024-02-06 11:33:20,248 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -7.6, 'wind_speed': 9.9, 'humidity': 44.6}
+2024-02-06 11:33:20,249 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -7.6, 'wind_speed': 9.9, 'humidity': 44.6}, Sent at: 2024-02-06 11:33:20
+2024-02-06 11:33:20,249 - INFO - Produced: {'city': 'Vancouver', 'temperature': 23.5, 'wind_speed': 9.1, 'humidity': 61.4}
+2024-02-06 11:33:20,249 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 23.5, 'wind_speed': 9.1, 'humidity': 61.4}, Sent at: 2024-02-06 11:33:20
+2024-02-06 11:33:25,252 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -9.1, 'wind_speed': 5.7, 'humidity': 49.5}
+2024-02-06 11:33:25,253 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -9.1, 'wind_speed': 5.7, 'humidity': 49.5}, Sent at: 2024-02-06 11:33:25
+2024-02-06 11:33:25,253 - INFO - Produced: {'city': 'Vancouver', 'temperature': 9.6, 'wind_speed': 19.9, 'humidity': 81.4}
+2024-02-06 11:33:25,254 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 9.6, 'wind_speed': 19.9, 'humidity': 81.4}, Sent at: 2024-02-06 11:33:25
+2024-02-06 11:33:30,266 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -5.5, 'wind_speed': 5.3, 'humidity': 64.7}
+2024-02-06 11:33:30,275 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -5.5, 'wind_speed': 5.3, 'humidity': 64.7}, Sent at: 2024-02-06 11:33:30
+2024-02-06 11:33:30,275 - INFO - Produced: {'city': 'Vancouver', 'temperature': -0.5, 'wind_speed': 22.1, 'humidity': 60.1}
+2024-02-06 11:33:30,276 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -0.5, 'wind_speed': 22.1, 'humidity': 60.1}, Sent at: 2024-02-06 11:33:30
+2024-02-06 11:33:35,280 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -26.7, 'wind_speed': 32.0, 'humidity': 75.4}
+2024-02-06 11:33:35,280 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -26.7, 'wind_speed': 32.0, 'humidity': 75.4}, Sent at: 2024-02-06 11:33:35
+2024-02-06 11:33:35,281 - INFO - Produced: {'city': 'Vancouver', 'temperature': 23.0, 'wind_speed': 19.7, 'humidity': 43.6}
+2024-02-06 11:33:35,281 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 23.0, 'wind_speed': 19.7, 'humidity': 43.6}, Sent at: 2024-02-06 11:33:35
+2024-02-06 11:33:40,281 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -1.1, 'wind_speed': 1.0, 'humidity': 75.1}
+2024-02-06 11:33:40,283 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -1.1, 'wind_speed': 1.0, 'humidity': 75.1}, Sent at: 2024-02-06 11:33:40
+2024-02-06 11:33:40,286 - INFO - Produced: {'city': 'Vancouver', 'temperature': 15.5, 'wind_speed': 7.3, 'humidity': 38.3}
+2024-02-06 11:33:40,286 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 15.5, 'wind_speed': 7.3, 'humidity': 38.3}, Sent at: 2024-02-06 11:33:40
+2024-02-06 11:33:45,292 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 20.5, 'wind_speed': 35.7, 'humidity': 69.9}
+2024-02-06 11:33:45,292 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 20.5, 'wind_speed': 35.7, 'humidity': 69.9}, Sent at: 2024-02-06 11:33:45
+2024-02-06 11:33:45,293 - INFO - Produced: {'city': 'Vancouver', 'temperature': 6.6, 'wind_speed': 4.6, 'humidity': 92.6}
+2024-02-06 11:33:45,293 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 6.6, 'wind_speed': 4.6, 'humidity': 92.6}, Sent at: 2024-02-06 11:33:45
+2024-02-06 11:33:50,298 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 3.8, 'wind_speed': 39.6, 'humidity': 32.2}
+2024-02-06 11:33:50,300 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 3.8, 'wind_speed': 39.6, 'humidity': 32.2}, Sent at: 2024-02-06 11:33:50
+2024-02-06 11:33:50,306 - INFO - Produced: {'city': 'Vancouver', 'temperature': 11.3, 'wind_speed': 18.1, 'humidity': 73.5}
+2024-02-06 11:33:50,307 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 11.3, 'wind_speed': 18.1, 'humidity': 73.5}, Sent at: 2024-02-06 11:33:50
+2024-02-06 11:33:55,316 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 1.8, 'wind_speed': 0.2, 'humidity': 28.4}
+2024-02-06 11:33:55,317 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 1.8, 'wind_speed': 0.2, 'humidity': 28.4}, Sent at: 2024-02-06 11:33:55
+2024-02-06 11:33:55,317 - INFO - Produced: {'city': 'Vancouver', 'temperature': 10.9, 'wind_speed': 13.6, 'humidity': 81.3}
+2024-02-06 11:33:55,318 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 10.9, 'wind_speed': 13.6, 'humidity': 81.3}, Sent at: 2024-02-06 11:33:55
+2024-02-06 11:34:00,324 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -7.9, 'wind_speed': 8.3, 'humidity': 64.1}
+2024-02-06 11:34:00,325 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -7.9, 'wind_speed': 8.3, 'humidity': 64.1}, Sent at: 2024-02-06 11:34:00
+2024-02-06 11:34:00,325 - INFO - Produced: {'city': 'Vancouver', 'temperature': 4.5, 'wind_speed': 15.4, 'humidity': 43.8}
+2024-02-06 11:34:00,326 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 4.5, 'wind_speed': 15.4, 'humidity': 43.8}, Sent at: 2024-02-06 11:34:00
+2024-02-06 11:34:05,328 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 25.1, 'wind_speed': 24.7, 'humidity': 49.2}
+2024-02-06 11:34:05,330 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 25.1, 'wind_speed': 24.7, 'humidity': 49.2}, Sent at: 2024-02-06 11:34:05
+2024-02-06 11:34:05,330 - INFO - Produced: {'city': 'Vancouver', 'temperature': 13.6, 'wind_speed': 6.3, 'humidity': 33.3}
+2024-02-06 11:34:05,330 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': 13.6, 'wind_speed': 6.3, 'humidity': 33.3}, Sent at: 2024-02-06 11:34:05
+2024-02-06 11:34:10,337 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 12.8, 'wind_speed': 33.5, 'humidity': 69.5}
+2024-02-06 11:34:10,338 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 12.8, 'wind_speed': 33.5, 'humidity': 69.5}, Sent at: 2024-02-06 11:34:10
+2024-02-06 11:34:10,338 - INFO - Produced: {'city': 'Vancouver', 'temperature': -9.9, 'wind_speed': 14.6, 'humidity': 85.8}
+2024-02-06 11:34:10,338 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -9.9, 'wind_speed': 14.6, 'humidity': 85.8}, Sent at: 2024-02-06 11:34:10
+2024-02-06 11:34:15,348 - INFO - Produced: {'city': 'Winnipeg', 'temperature': 25.9, 'wind_speed': 11.7, 'humidity': 70.3}
+2024-02-06 11:34:15,349 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': 25.9, 'wind_speed': 11.7, 'humidity': 70.3}, Sent at: 2024-02-06 11:34:15
+2024-02-06 11:34:15,349 - INFO - Produced: {'city': 'Vancouver', 'temperature': -3.1, 'wind_speed': 23.7, 'humidity': 64.1}
+2024-02-06 11:34:15,350 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -3.1, 'wind_speed': 23.7, 'humidity': 64.1}, Sent at: 2024-02-06 11:34:15
+2024-02-06 11:34:20,353 - INFO - Produced: {'city': 'Winnipeg', 'temperature': -7.4, 'wind_speed': 45.5, 'humidity': 57.0}
+2024-02-06 11:34:20,354 - INFO - Transmitted: {'city': 'Winnipeg', 'temperature': -7.4, 'wind_speed': 45.5, 'humidity': 57.0}, Sent at: 2024-02-06 11:34:20
+2024-02-06 11:34:20,355 - INFO - Produced: {'city': 'Vancouver', 'temperature': -2.6, 'wind_speed': 22.0, 'humidity': 70.9}
+2024-02-06 11:34:20,355 - INFO - Transmitted: {'city': 'Vancouver', 'temperature': -2.6, 'wind_speed': 22.0, 'humidity': 70.9}, Sent at: 2024-02-06 11:34:20
